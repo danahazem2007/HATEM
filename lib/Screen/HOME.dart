@@ -17,7 +17,7 @@ class Homepage extends StatelessWidget {
             style: TextStyle(color: Colors.purple, fontSize: 35),
           ),
         ),
-      ),
+      ),//
       body: Consumer<PrayerProvider>(
         builder: (context, prayerProvider, child) {
           if (prayerProvider.model == null) {
